@@ -1,0 +1,39 @@
+FUNCTIONAL SPACE PREDICTION TEST
+=================================
+
+Test: scope_20
+Total rows: 100
+Prediction scope (y): 20
+Split index (j): 80
+
+DATA CONSTRUCTION
+-----------------
+source_vector[0 ... 79]
++
+solved_vector[80 ... 99]
+
+SOURCE FUNCTIONAL SPACE OPTIMIZATION
+-------------------------------------
+Initial loss: 0.0000000000
+Final loss:   0.0000000000
+Iterations:   0
+Converged:    true
+
+HYBRID FUNCTIONAL SPACE OPTIMIZATION
+-------------------------------------
+Initial loss: 0.0000000000
+Final loss:   0.0000000000
+Iterations:   0
+Converged:    true
+
+SOURCE VS HYBRID
+----------------
+MAE:               1235300.3270258016
+MSE:               21305267676744.1210937500
+RMSE:              4615762.9571658159
+Maximum Abs Error: 63008154.0000000000
+
+PREDICTION REGION
+-----------------
+Rows 80 through 99 are the predicted region.
+Number of predicted rows: 20
